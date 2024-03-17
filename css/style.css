@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bar {
+    fill: steelblue;
+    transition-property: fill;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.axis {
+    font-size: 12px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+
+svg {
+    margin-top: 2rem;
+    padding: 1rem;
+    overflow: visible;
+}

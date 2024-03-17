@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <h1>Manga Data</h1>
+    <input type="text" id="searchPublisher" placeholder="Search for a manga series">
+    <select id="filterPublisher"></select>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Manga Series</th>
+                <th>Publisher</th>
+                <th>Approximate sales</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+
+        </tbody>
+    </table>
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/data.js"></script>
+</body>
+</html>
